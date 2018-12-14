@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Housewives Button</title>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div id="header">
+  <img id="topImage" src="https://media1.giphy.com/media/XHfvoc7OhYSac/giphy.gif?cid=3640f6095c12a719416a377463823cf1">
+  
+  <h1>Real Housewives Gif Generator</h1>
+  <h4>Are you feeling some type of way? Can only a real housewife truly express what you're going through?
+      You came to the right place!
+       <br>Click the GIPHYs to pause and play<br>If you're feeling something else- be real- search to add more buttons!</h4>
+</div>
+
+<form class="form-inline" id="BravoSearch">
+  <div class="form-group">
+    <label for="BravoInput">Search for a Housewives Gif</label>
+    <input type="text" id="BravoInput">
+  </div>
+  <!-- Button triggers show to be added -->
+  <input id="addGif" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn-primary" id="show" data-search="Real Housewives Happy">YAS</button>
+      <button class="btn-primary" id="show" data-search="Real Housewives Angry">WHAT B*TCH</button>
+      <button class="btn-primary" id="show" data-search="Real Housewives Tired">TIRED AF</button>
+      <button class="btn-primary" id="show" data-search="Real Housewives Drinking">MAKE IT A DOUBLE</button>
+      <button class="btn-primary" id="show" data-search="Real Housewives Annoyed">#OVERIT</button>
+      <button class="btn-primary" id="show" data-search="Real Housewives Sexy">HOW YOU DOIN?</button>
+
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Javascript.js"></script>
+
+</body>
+</html>
